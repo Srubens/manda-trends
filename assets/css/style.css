@@ -1,0 +1,192 @@
+
+.bg_header{
+    height: 340px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e9492a+0,e72357+100 */
+    background: #e9492a; /* Old browsers */
+    background: -moz-linear-gradient(left,  #e9492a 0%, #e72357 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #e9492a 0%,#e72357 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #e9492a 0%,#e72357 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9492a', endColorstr='#e72357',GradientType=1 ); /* IE6-9 */
+}
+
+.bg_trends{
+    width: 400px;
+    height: 176px;
+    background: url('../images/vetor-00.svg');
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    max-width: 100%;
+}
+
+.bg_circle{
+    background: url('../images/vetor-5.svg');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 372px;
+    height: 292px;
+    z-index: 2;
+    margin-top: -200px;
+    /* position: absolute; */
+    transform: translate(-262px, 24px);
+    background-size: cover;
+}
+
+.bg_cubos{
+    background: url('../images/vetor-4.svg');
+    background-repeat: no-repeat;
+    transform: translate(380px, -55px);
+    width: 110px;
+    height: 80px;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.bg_seta{
+    background: url('../images/vetor-1.svg');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 60px;
+    max-width: 100%;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    
+}
+
+.bg_woman{
+    background: url('../images/vetor-7.svg');
+    background-repeat: no-repeat;
+    width: 353px;
+    height: 282px;
+    max-width: 100%;
+    background-size: cover;
+    transform: translate(0, -10px);
+}
+
+.bg_vetor_1{
+    background: url('../images/vetor-2.svg');
+    background-repeat: no-repeat;
+    width: 53px;
+    height: 53px;
+    transform:rotate(-13.39deg);
+    margin-top: -68px;
+    color:#fff;
+}
+
+.bg_header_text{
+    text-align: right;
+    margin-top: 22px;
+}
+
+.bg_header_text h1{
+    width: 21.875rem;
+    font-size: 2.25rem;
+}
+
+.h1_destaque{
+    text-transform: uppercase;
+}
+
+
+.bg_vetor_2{
+    background: url('../images/vetor-3.svg');
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 28px;
+}
+
+.img1{
+    width: 1270px;
+    height: 568px;
+    background: #cecece;
+    margin-top: 40px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.img2{
+    width: 604px;
+    height: 454px;
+    background: #cecece;
+    margin-top: 40px;
+    max-width: 100%;
+}
+
+.main_bg_footer{
+    background: #FC4C02;
+    height: 195px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.logo1{
+    background: url('../images/logo-1.svg');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 60px;
+    max-width: 100%;
+}
+
+.barra{
+    background: #d9d9d9;
+    width: 4px;
+    height: 115px;
+    margin:0 50px;
+}
+
+.logo2{
+    background: url('../images/logo-2.svg');
+    background-repeat: no-repeat;
+    width: 268px;
+    height: 90px;
+}
+
+.main_copy{
+    height: 154px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+    .bg_header{
+        height: 160vw;
+        width: 24.375rem;
+    }
+    .bg_trends{
+        height: 5.5rem;
+        margin: 20px 28%;
+    }
+
+    .bg_circle,
+    .bg_cubos,
+    .bg_seta, .bg_vetor_1{
+        display: none;
+    }
+    .bg_woman{
+        background: url('../images/vetor-7.svg');
+        background-repeat: no-repeat;
+        width: 353px;
+        height: 282px;
+        max-width: 100%;
+        transform: translate(0, 10px);
+        margin:0 auto;
+    }
+    .bg_header_text{
+        text-align: center;
+        color:#fff;
+    }
+    .img1,.img2{
+        height: auto;
+    }
+    .main_bg_footer{
+        height: 98vw;
+    }
+    .barra{
+        height: 2px;
+        width: 200px;
+    }
+}
