@@ -115,6 +115,29 @@ h1{
     object-position: top;
 }
 
+article h1{
+    font-family: 'Arial Bold';
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top:10px;
+}
+
+article h2{
+    margin-top: 10px;
+}
+
+article p{
+    font-family: 'Arial Bold';
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top:10px;
+    color:#74787a;
+}
+
+article small{
+    color:#b2b2b2;
+}
+
 .bg_color_1{
     width: 600px;
     height: 8px;
@@ -197,12 +220,17 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #f2f2f2;
 }
 
-@media (max-width: 576px) {
+.copy_text p, a{
+    color:#646869;
+}
+
+@media only screen and (max-width: 576px) {
     .bg_header{
         height: 164vw;
-        width: 26rem;
+        width: 28rem;
     }
     .bg_trends{
         height: 5.5rem;
