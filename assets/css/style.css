@@ -1,5 +1,9 @@
-h1{
-    font-family: 'Arial';
+body{
+    font-family: 'Arial', 'Arimo';
+}
+
+h1, h2{
+    font-weight: bold;
 }
 
 .bg_header{
