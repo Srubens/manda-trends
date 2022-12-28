@@ -12,7 +12,7 @@ Dentro da pasta assets temos:
 - js
 - psd 
 
-[] Ajustar a qualidade das imagens.
+- [ ] Ajustar a qualidade das imagens.
 
 Clique [aqui](https://srubens.github.io/manda-trends/) para ver
 
